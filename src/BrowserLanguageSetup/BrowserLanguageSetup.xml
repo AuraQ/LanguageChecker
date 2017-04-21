@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="BrowserLanguageSetup.widget.BrowserLanguageSetup" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>BrowserLanguageSetup </name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="langChangeMF" type="string" required="true">
+            <caption>Lang Change MF</caption>
+            <category>Behavior</category>
+            <description>The microflow to execute. Including module name, i.e. Administration.WG_LangChange</description>
+        </property>
+    </properties>
+</widget>
+
